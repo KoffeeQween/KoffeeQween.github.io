@@ -53,7 +53,9 @@ function Ball(x, y) {
 		}
 	}
 	function setup() {
-canvas = createCanvas (windowWidth, windowHeight);
-function windowResized(){
-resizeCanvas();
+	canvas = createCanvas (windowWidth, windowHeight);
+	function windowResized(){
+	resizeCanvas();
+}
+}
 }
