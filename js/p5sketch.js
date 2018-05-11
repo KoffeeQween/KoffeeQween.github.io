@@ -52,4 +52,8 @@ function Ball(x, y) {
 			this.yspeed *= -1;
 		}
 	}
+	function setup() {
+canvas = createCanvas (windowWidth, windowHeight);
+function windowResized(){
+resizeCanvas();
 }
