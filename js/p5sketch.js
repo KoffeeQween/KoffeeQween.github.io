@@ -1,7 +1,7 @@
 var balls = []; // empty array
 
 function setup() { 
-  createCanvas(640,360);
+  createCanvas(windowWidth, windowHeight);
 	
   // for loop is used to create multiple ball objects
 	for (var i = 0; i < 10; i++) {
@@ -52,10 +52,5 @@ function Ball(x, y) {
 			this.yspeed *= -1;
 		}
 	}
-	function setup() {
-	canvas = createCanvas (windowWidth, windowHeight);
-	function windowResized(){
-	resizeCanvas();
-}
-}
+	
 }
